@@ -1,0 +1,17 @@
+<template>
+  <div class="<%- namespace %>-<%- kebabCaseName %>"></div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { props } from './props'
+
+export default defineComponent({
+  name: '<%- bigCamelizeNamespace + bigCamelizeName %>',
+  props
+})
+</script>
+
+<style lang="less">
+@import './<%- camelizeName %>.less';
+</style>
