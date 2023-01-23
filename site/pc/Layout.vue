@@ -6,7 +6,7 @@ import context from '../components/context'
 import { nextTick, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { get } from 'lodash-es'
-import { getPCLocationInfo } from 'Luckly-cli/lib/client/index.js'
+import { getPCLocationInfo } from 'luckly-cli/lib/client/index.js'
 import { MenuTypes, type Menu } from '../utils'
 import type { Ref } from 'vue'
 

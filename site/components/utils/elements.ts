@@ -1,5 +1,5 @@
 import { isNumber, isString, toNumber, kebabCase } from '@varlet/shared'
-import type { StyleVars } from 'Luckly-cli/lib/client/index.js'
+import type { StyleVars } from 'luckly-cli/lib/client/index.js'
 
 export function getLeft(element: HTMLElement): number {
   const { left } = element.getBoundingClientRect()

@@ -1,6 +1,6 @@
 <script setup>
 import VarButton from '..'
-import { AppType } from 'Luckly-cli/lib/client/index.js'
+import { AppType } from 'luckly-cli/lib/client/index.js'
 </script>
 
 <template>

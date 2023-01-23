@@ -9,7 +9,7 @@ import {
   watchTheme,
   getBrowserTheme,
   type Theme
-} from 'Luckly-cli/lib/client/index.js'
+} from 'luckly-cli/lib/client/index.js'
 import { setTheme } from '../../../utils'
 
 const route = useRoute()

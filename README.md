@@ -56,7 +56,7 @@ luckly-cli gen
 #### 生成一个项目模板
 
 ```shell
-varlet-cli gen
+luckly-cli gen
 
 ```shell
 luckly-cli dev
@@ -72,19 +72,19 @@ luckly-cli build
 #### 构建组件库代码
 
 ```shell
-varlet-cli compile
+luckly-cli compile
 ```
 
 #### 执行所有的单元测试
 
 ```shell
-varlet-cli test
+luckly-cli test
 ```
 
 #### 发布组件库
 
 ```shell
-varlet-cli release
+luckly-cli release
 ```
 
 # Options
@@ -105,7 +105,7 @@ varlet-cli release
 #### 创建组件模板文件
 
 ```shell
-varlet-cli create
+luckly-cli create
 
 # Options
 -n

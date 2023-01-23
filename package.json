@@ -1,6 +1,6 @@
 {
   "name": "luckly-cli",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "type": "module",
   "description": "cli of Luckly",
   "bin": {
@@ -10,7 +10,7 @@
   "module": "./lib/node/index.js",
   "keywords": [
     "cli",
-    "varlet"
+    "luckly"
   ],
   "license": "MIT",
   "files": [
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/varletjs/varlet.git"
+    "url": "https://github.com/LiuSen688/luckly-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/varletjs/varlet/issues"
+    "url": "https://github.com/LiuSen688/luckly-cli/issues"
   },
   "scripts": {
     "dev": "tsc --watch",
@@ -83,8 +83,7 @@
     "@types/lodash-es": "^4.17.5",
     "@types/node": "^18.7.20",
     "@types/semver": "^7.3.9",
-    "@types/inquirer": "^9.0.2",
-    "Luckly-cli": "file://D:/Yunzhi-sec/Component/Luckly-cli"
+    "@types/inquirer": "^9.0.2"
   },
   "peerDependencies": {
     "@varlet/icons": "^2.4.2",

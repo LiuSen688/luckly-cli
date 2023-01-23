@@ -35,11 +35,5 @@ export default {
         type: 2,
       },
     ],
-  },
-  mobile: {
-    header: {
-      i18n: null,
-      darkMode: null,
-    },
   }
 }

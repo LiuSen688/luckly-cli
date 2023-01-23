@@ -27,7 +27,6 @@ async function startServer(force: boolean | undefined) {
   const varletConfig = await getVarletConfig()
   const devConfig = getDevConfig(varletConfig)
   const inlineConfig = merge(devConfig, force ? { optimizeDeps: { force: true } } : {})
-  console.log('inlineConfig: ', inlineConfig);
 
   // create all instance
   server = await createServer(inlineConfig)

@@ -16,7 +16,7 @@ import '../components/styles/common.less'
 import '../components/styles/elevation.less'
 
 import { createApp } from 'vue'
-import { getBrowserTheme, Theme, watchTheme } from 'Luckly-cli/lib/client/index.js'
+import { getBrowserTheme, Theme, watchTheme } from 'luckly-cli/lib/client/index.js'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import { get } from 'lodash-es'
 

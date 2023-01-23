@@ -108,16 +108,6 @@ export async function buildPcSiteRoutes() {
     findRootLocales(),
   ])
 
-  const rootPagesRoutes = rootLocales.map(
-    (rootLocale) => `
-  {
-    path: '${getRootRoutePath(rootLocale)}',
-    // @ts-ignore
-    component: () => import('${getRootFilePath(rootLocale)}')
-  }\
-`
-  )
-
   const componentDocsRoutes = componentDocs.map(
     (componentDoc) => `
       {
@@ -146,7 +136,6 @@ export async function buildPcSiteRoutes() {
   }`
 
   const source = `export default [\
-  ${rootPagesRoutes.join(',')},
   ${layoutRoutes}
 ]`
   outputFileSyncOnChange(SITE_PC_ROUTES, source)

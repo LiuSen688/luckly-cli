@@ -1,5 +1,5 @@
 import { get } from 'lodash-es'
-import { StyleProvider, type Theme, withSiteConfigNamespace } from 'Luckly-cli/lib/client/index.js'
+import { StyleProvider, type Theme, withSiteConfigNamespace } from 'luckly-cli/lib/client/index.js'
 
 export interface Menu {
   doc: string

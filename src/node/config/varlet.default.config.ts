@@ -5,8 +5,8 @@ export default defineConfig({
   namespace: 'Luckly',
   host: 'localhost',
   port: 8080,
-  title: 'VARLET',
-  logo: 'https://varlet.gitee.io/varlet-ui/varlet_icon.png',
+  title: 'LUCKY',
+  logo: 'https://s1.ax1x.com/2023/01/23/pSYEsWn.jpg',
   defaultLanguage: 'zh-CN',
   highlight: {
     /**
@@ -20,7 +20,7 @@ export default defineConfig({
   useMobile: false,
   pc: {
     menu: [],
-    redirect: '/index',
+    redirect: '/home',
     indexPage: {
       description: {
         'zh-CN':
@@ -153,7 +153,7 @@ export default defineConfig({
         'en-US': 'English',
       },
       versions: null,
-      github: 'https://github.com/varletjs/varlet',
+      github: 'https://github.com/LiuSen688/luckly-cli.git',
       playground: 'https://varlet.gitee.io/varlet-ui-playground',
       darkMode: true,
     },

@@ -3,7 +3,7 @@ import config from '@config'
 import AnimationBox from './AnimationBox.vue'
 import { ref, computed, defineComponent } from 'vue'
 import { get } from 'lodash-es'
-import { getBrowserTheme, getPCLocationInfo, Theme, watchTheme } from 'Luckly-cli/lib/client/index.js'
+import { getBrowserTheme, getPCLocationInfo, Theme, watchTheme } from 'luckly-cli/lib/client/index.js'
 import { setTheme } from '../../utils'
 import { removeEmpty } from '../../utils'
 import { useRouter } from 'vue-router'
@@ -113,7 +113,9 @@ export default defineComponent({
 <template>
   <div class="varlet-site-header">
     <div class="varlet-site-header__lead">
-      <animation-box class="varlet-site-header__logo" @click="backRoot"/>
+      <div class="varlet-site-header__logo" @click="backRoot">
+        <img src="https://s1.ax1x.com/2023/01/23/pSYEsWn.jpg" style="width: 35px; height: 35px;">
+      </div>
       <div class="varlet-site-header__title" v-if="title" @click="backRoot">{{ title }}</div>
     </div>
 

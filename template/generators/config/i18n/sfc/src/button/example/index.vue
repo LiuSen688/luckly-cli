@@ -1,6 +1,6 @@
 <script setup>
 import VarButton from '..'
-import { watchLang, AppType } from 'Luckly-cli/lib/client/index.js'
+import { watchLang, AppType } from 'luckly-cli/lib/client/index.js'
 import { pack, use } from './locale'
 
 watchLang(use)

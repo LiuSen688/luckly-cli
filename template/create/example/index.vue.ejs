@@ -1,10 +1,10 @@
 <script setup>
 import <%- bigCamelizeNamespace + bigCamelizeName %> from '../index'
 <% if (!locale) { -%>
-import { AppType } from 'Luckly-cli/lib/client/index.js'
+import { AppType } from 'luckly-cli/lib/client/index.js'
 <% } -%>
 <% if (locale) { -%>
-import { watchLang, AppType } from 'Luckly-cli/lib/client/index.js'
+import { watchLang, AppType } from 'luckly-cli/lib/client/index.js'
 import { use, pack } from './locale'
 
 watchLang(use)

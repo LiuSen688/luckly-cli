@@ -43,7 +43,7 @@ import config from '@config'
 import { defineComponent, nextTick, ref, onMounted } from 'vue'
 import { doubleRaf } from '../utils/elements'
 import { get } from 'lodash-es'
-import { getBrowserTheme, getPCLocationInfo } from 'Luckly-cli/lib/client/index.js'
+import { getBrowserTheme, getPCLocationInfo } from 'luckly-cli/lib/client/index.js'
 import { utoa } from '../../utils'
 import type { Ref } from 'vue'
 

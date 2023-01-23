@@ -2,7 +2,7 @@
 import config from '@config'
 import LogoAnimation from './components/LogoAnimation.vue'
 import { defineComponent, onMounted, ref } from 'vue'
-import { getPCLocationInfo } from 'Luckly-cli/lib/client/index.js'
+import { getPCLocationInfo } from 'luckly-cli/lib/client/index.js'
 import { isPhone } from '../utils'
 import { get } from 'lodash-es'
 
