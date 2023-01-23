@@ -1,10 +1,7 @@
-# varlet-cli-app
+# luckly-cli
 
-### Reference
-
-[@varlet/cli 中文文档](https://github.com/varletjs/varlet/blob/dev/packages/varlet-cli/README.md)
-[@varlet/cli documentation](https://github.com/varletjs/varlet/blob/dev/packages/varlet-cli/README.en-US.md)
-
+本脚手架是阅读 varlet/cli 源码，学习仿写的自己的脚手架，根据自己的开发需求删除和更改了很多配置与代码
+主要用于学习脚手架以及前端工程化相关知识，并通过该脚手架搭建自己的组件库
 ### Quickstart
 
 ```shell
@@ -32,12 +29,6 @@ pnpm build
 pnpm compile
 ```
 
-#### Lint code
-
-```shell
-pnpm lint
-```
-
 #### Run unit test
 
 ```shell
@@ -50,18 +41,6 @@ pnpm test
 pnpm test:watch 
 or
 pnpm test:watchAll 
-```
-
-#### Mount Git Hooks
-
-```shell
-npx simple-git-hooks
-```
-
-#### Generate changelog
-
-```shell
-pnpm changelog
 ```
 
 #### Release
