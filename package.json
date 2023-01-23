@@ -1,10 +1,10 @@
 {
-  "name": "Luckly-cli",
+  "name": "luckly-cli",
   "version": "1.0.0",
   "type": "module",
   "description": "cli of Luckly",
   "bin": {
-    "Luckly-cli": "lib/node/bin.js"
+    "luckly-cli": "lib/node/bin.js"
   },
   "main": "./lib/node/index.js",
   "module": "./lib/node/index.js",
