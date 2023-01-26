@@ -56,7 +56,7 @@
     "typescript": "^4.4.4",
     "vue": "3.2.25",
     "vue-router": "4.0.12",
-    "luckly-cli": "1.3.0"
+    "luckly-cli": "1.6.0"
   },
   "lint-staged": {
     "*.{ts,tsx,js,vue,less}": "prettier --write",

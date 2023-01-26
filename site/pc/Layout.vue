@@ -292,7 +292,7 @@ iframe {
       h5,
       h6 {
         position: relative;
-        color: var(--site-config-color-text);
+        // color: var(--site-config-color-text);
         font-weight: normal;
         line-height: 1.5;
       }
@@ -314,7 +314,7 @@ iframe {
       }
 
       h4 {
-        margin: 18px 0 0;
+        // margin: 18px 0 0;
       }
 
       p,
