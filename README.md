@@ -8,10 +8,8 @@
 - 🛠️ &nbsp;基于配置文件的组件库文档站点
 - 🛠️ &nbsp;支持 `sfc` 和 `tsx` 两种风格的组件库编写风格
 - 📦 &nbsp;开箱即用的代码检查工具
-- 📦 &nbsp;开箱即用的单元测试工具
-- 📦 &nbsp;开箱即用的代码发布工具,同时发布到 `npm` 和 `github`, 并自动生成更新日志
+- 📦 &nbsp;开箱即用的代码发布工具
 - 💪 &nbsp;支持 `Typescript`
-- 💪 &nbsp;支持 `暗黑模式`
 - 🌍 &nbsp;支持 `国际化`
 - 🚀 &nbsp;基于 `pnpm`
 
@@ -73,12 +71,6 @@ luckly-cli build
 
 ```shell
 luckly-cli compile
-```
-
-#### 执行所有的单元测试
-
-```shell
-luckly-cli test
 ```
 
 #### 发布组件库
